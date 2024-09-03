@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.config.EnableJpaRepositories"/>
+    <fullyQualifiedTypeName name="com.klef.jfsd.springboot.model.Contact"/>
+    <fullyQualifiedTypeName name="com.klef.jfsd.springboot.repository.ContactRepository"/>
+    <fullyQualifiedTypeName name="com.klef.jfsd.springboot.model.SearchHistory"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="com.klef.jfsd.springboot.repository.SearchHistoryRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="com.klef.jfsd.springboot.service.WeatherDataService"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.core.model.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.support.RedirectAttributes"/>
+    <fullyQualifiedTypeName name="com.klef.jfsd.springboot.controller.Admincontroller"/>
+    <fullyQualifiedTypeName name="com.klef.jfsd.springboot.service.EmailService"/>
+    <fullyQualifiedTypeName name="com.klef.jfsd.springboot.service.UserService"/>
+    <fullyQualifiedTypeName name="com.klef.jfsd.springboot.model.WeatherData"/>
+    <fullyQualifiedTypeName name="com.klef.jfsd.springboot.repository.WeatherDataRepository"/>
+    <fullyQualifiedTypeName name="com.klef.jfsd.springboot.service.WeatherService"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.klef.jfsd.springboot.repository.UserRepository"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,107 @@
+ body {
+      margin: 0;
+      padding: 0;
+   
+    
+    font-family: 'montserrat', sans-serif;
+    background-image: url('../images/dark-1836972_1280.jpg');
+    background-size: cover;
+    
+  }
+    
+
+    /* Header styles */
+    header {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Navigation styles */
+    .menuBtn {
+      cursor: pointer;
+      text-decoration: underline;
+      color: #007BFF;
+    }
+
+    /* Search form styles */
+    #searchForm, #searchFormMobile {
+      text-align: center;
+      margin: 20px auto;
+    }
+
+    #searchInput, #searchInputMobile {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+    }
+
+    button[type="submit"] {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    /* Main content area styles */
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    /* Updated Card Styles and Layout */
+.card {
+  background-color: #f7f7f7; /* Change the background color */
+  border: 1px solid #ddd; /* Update border color */
+  border-radius: 10px; /* Increase border-radius for a rounded look */
+  margin: 10px;
+  padding: 20px; /* Increase padding for more spacing */
+  width: calc(33.33% - 20px); /* Adjust card width for a 3-column layout */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Increase box shadow for depth */
+
+  /* Center the card contents vertically and horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card a {
+  text-decoration: none;
+  color: #007BFF; /* Update link color */
+}
+
+.card img {
+  width: 100%;
+  max-height: 200px; /* Increase max-height for image */
+  object-fit: cover;
+  border-radius: 10px; /* Apply border-radius to image */
+}
+
+h4 {
+  font-size: 20px; /* Increase font size for the title */
+  margin: 15px 0; /* Adjust margin for spacing */
+}
+
+.publishbyDate {
+  font-size: 14px;
+  color: #555; /* Update text color */
+  margin-top: 10px;
+}
+
+.desc {
+  margin-top: 15px; /* Adjust margin for spacing */
+}
+
+
+    
+    /* Hide the mobile search form by default */
+    .mobile.hidden {
+      display: none;
+    }

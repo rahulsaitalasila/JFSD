@@ -1,0 +1,384 @@
+.navbar .navbar.nav .nav-item a{
+    padding: 15px;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.form-container h2 {
+    margin-bottom: 15px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+body {
+    font-family: 'montserrat', sans-serif;
+    background-image: url('../images/dark-1836972_1280.jpg');
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  
+  header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 16px 0px 16px 0px;
+    border-bottom: 3px solid #DF8E00;
+    
+    color: #313131;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+  }
+  
+  header input:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  
+  main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .location .city {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .location .date {
+    color: #FFF;
+    font-size: 16px;
+  }
+  
+  .current .temp {
+    color: #FFF;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0px;
+    text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  .current .temp span {
+    font-weight: 500;
+  }
+  
+  .current .weather {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+  }
+  
+  .current .hi-low {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+  }
+
+       
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: black;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    
+
+        .description{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          color: #fff;
+          padding: 0 70px;
+          width: 100%;
+          text-align: center;
+        }
+        .description h2{
+          font-size: 30px;
+          font-family: 'Great Vibes',sans-serif;
+          font-weight: 100;
+          color: #fff;
+          letter-spacing: 2px;
+          line-height: 50px;
+        }
+        .description h1{
+          font-size: 35px;
+          font-family: 'Raleway',sans-serif;
+          font-weight: 700;
+          color: #fff;
+          text-transform: uppercase;
+          letter-spacing: 5px;
+          line-height: 70px;
+        }
+        .description p{
+          font-size: 14px;
+          font-family: 'Raleway',sans-serif;
+          font-weight: 100;
+          color: #fff;
+          letter-spacing: 2px;
+          line-height: 25px;
+          margin-bottom: 30px;
+        }
+        .description button{
+          font-size: 14px;
+          font-family: 'Raleway',sans-serif;
+          font-weight: 700;
+          color: #fff;
+          background: none;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          padding: 12px 20px;
+          border: 1px solid #fff;
+          border-radius: 3px;
+          outline: none;
+          cursor: pointer;
+          transition: 0.4s;
+        }
+        .description button:hover{
+          background: #fff;
+          color: #000;
+        }
+        
+        
+.about{
+  width: 100%;
+  height: 100vh;
+  padding: 10px 0 0 0;
+  background-image: url(../images/download7.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.about .about_main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about .about_main .about_image img{
+  width: 750px;
+}
+
+.about .about_main .about_text h1{
+  font-size: 45px;
+  position: relative;
+  bottom: 40px;
+}
+
+.about .about_main .about_text h1 span{
+  color: #facc22;
+  margin-right: 15px;
+}
+
+.about .about_main .about_text h3{
+  position: relative;
+  bottom: 10px;
+  font-size: 25px;
+}
+
+.about .about_main .about_text p{
+  width: 650px;
+  text-align: justify;
+  line-height: 23px;
+  margin-top: 20px;
+}
+
+.about .about_main .about_text .about_services{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about .about_main .about_text .about_services .s_1{
+  display: flex;
+  align-items: center;
+  width: 180px;
+  background: #ececec;
+  padding: 10px;
+  border: 2px solid #facc22;
+  cursor: pointer;
+}
+
+.about .about_main .about_text .about_services .s_1 i{
+  color: #000;
+  margin: 5px 10px 5px 5px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.about .about_main .about_text .about_services .s_1:hover i{
+  color: #a59148;
+}
+
+.about .about_main .about_text .about_services .s_1 a{
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.about .about_main .about_text .about_btn i{
+  font-size: 15px;
+  margin-right: 8px;
+}
+
+.about .about_main .about_text .about_btn{
+  position: relative;
+  top: 35px;
+  padding: 10px 20px;
+  border: 2px solid #facc22;
+  text-decoration: none;
+  color: #000;
+  z-index: 5;
+  transition: 0.3s;
+}
+
+.about .about_main .about_text .about_btn:hover{
+  color: #fff;
+}
+
+.about .about_main .about_text .about_btn::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  background: #facc22;
+  transition: 0.3s;
+}
+
+.about .about_main .about_text .about_btn:hover::before{
+  top: unset;
+  width: 100%;
+  bottom: 0;
+}
+
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding-bottom: 20px;
+}
+
+.search-item,
+#delete-history {
+  cursor: pointer;
+}
+
+.search-item:hover {
+  background-color: #f8f9fa;
+}
+
+@media (min-width: 1200px) {
+  .five-day-card {
+    max-width: 20%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .five-day-card {
+    min-width: 30%;
+  }
+}
+
+@media (max-width: 992px) {
+  .five-day-card {
+    min-width: 40%;
+  }
+}
+
+@media (max-width: 335px) {
+  .five-day-card {
+    min-width: 90%;
+  }
+}
+
+
+
+

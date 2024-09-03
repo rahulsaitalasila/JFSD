@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\rahul\OneDrive\Desktop\JFSDPROJECT"/>
+			<item value="C:\Users\rahul\OneDrive\Desktop\JFSDPROJECT\EurekaServer"/>
+			<item value="C:\Users\rahul\OneDrive\Desktop\JFSDPROJECT\APIGateway\APIGateway"/>
+			<item value="C:\Users\rahul\OneDrive\Desktop\JFSDPROJECT\Adminsdpservice\Adminsdpservice"/>
+			<item value="C:\Users\rahul\OneDrive\Desktop\JFSDPROJECT\Usersdpservice\Usersdpservice"/>
+			<item value="C:\Users\rahul\OneDrive\Desktop\JFSDPROJECT\Adminsdpservice"/>
+			<item value="C:\Users\rahul\OneDrive\Desktop\JFSDPROJECT\WeatherAPISDPProject\WeatherAPISDPProject"/>
+		</list>
+	</section>
+</section>
